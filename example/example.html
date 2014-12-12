@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>
+        <img src="../img/g1.jpg"/>
+        <img src="../img/g2.jpg"/>
+        <img src="../img/tAd.png"/>
+    </div>
+
+    <script type="text/javascript" src="../src/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../src/autoScale.js"></script>
+    <script type="text/javascript">
+        //DOMLoaded
+        $(function(){
+            $("div>img").autoScale({width:140,height:140});
+        });
+
+    </script>
+</body>
+</html>
